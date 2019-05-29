@@ -252,10 +252,10 @@ width: 105px;
 }
 
 /* Services */
-#container_grey{margin:0 auto; width: 100%;background-color:#f8f8f8; }
-#container_grey .header_box{margin:0 auto; width: 700px;  padding:30px 0 10px 0;background-color:#f8f8f8; }
+#container_grey{margin:0 auto; width: 100%;background-color:#ebebeb; }
+#container_grey .header_box{margin:0 auto; width: 700px;  padding:30px 0 10px 0;background-color:#ebebeb; }
 #container_grey .header_box h1{font-size: 20px;padding-left:0px;line-height:1.6em; }
-#container_grey .content_box{margin:0 auto; width: 80%;  padding:20px 0 0 0; background-color:#f8f8f8; }
+#container_grey .content_box{margin:0 auto; width: 80%;  padding:20px 0 0 0; background-color:#ebebeb; }
 #container_grey .content_box a{color:#660000;}
 #hpage_services{}
 #hpage_services .block{display:inline; float:left; width:30%; margin:0 0px 0 0; }
@@ -293,7 +293,7 @@ width: 105px;
 
 #container_white_child .ref{width: 80%; margin:0 auto; }
 #container_white_child .ref h1{font-size: 30px;padding:30px 0 20px 0;line-height:normal; color: #660000;}
-#container_white_child .ref h2{font-size: 20px;padding:0px 0 20px 0;line-height:normal; color: #3e3c4a; text-align: left}
+#container_white_child .ref h2{font-size: 20px;padding:0px 0 0px 0;line-height:normal; color: #3e3c4a; text-align: left}
 #container_white_child .ref p{ margin:0 auto;  padding-left: 30px ;text-indent: -30px ;padding-bottom: 20px; line-height:1.6em;font-size: 14px; color:#3e3c4a; text-align: left}
 
 
@@ -357,5 +357,125 @@ font-style:normal;
 text-decoration:none;
  }
 
+ /* Grid - Legal services */
 
+#grid_legal {
+        display: grid;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        grid-template-columns: 24% 24% 26% 26%;
+        background-color: #fff;
+        color: #444;
+        align-items: stretch;
+        padding-bottom: 20px;
+    }
+
+#grid_legal strong{float:center; margin:0px 0 0 0px; padding:0; font-size:18px; font-weight:normal; color:#660000; }
+#grid_legal ul{list-style-type: disc;}
+#grid_legal ul li{text-align: left; margin:10px 0 0 10px; padding:0px; font-family:Verdana, Arial, helvetica, sans-serif;font-size:13px; font-weight: normal; color:#555555; }
+#grid_legal .cell {
+        background-color: #ebebeb;
+        border-radius: 10px;
+        padding: 20px;
+    }
+  
+#grid_legal .a {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+#grid_legal .b {
+        grid-column: 2 / span 3;
+    }
+#grid_legal .c {
+        grid-column: 2 ;
+        grid-row: 2 ;
+    }
+#grid_legal .d {
+        grid-column: 3 ;
+        grid-row: 2 ;
+    }
+#grid_legal .e {
+        grid-column: 4 ;
+        grid-row: 2 ;
+    }
+  
+/* Grid - Medical services */
+
+#grid_medical {
+        display: grid;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        grid-template-columns: 40% 60%;
+        background-color: #fff;
+        color: #444;
+        align-items: stretch;
+        padding-bottom: 20px;
+    }
+
+#grid_medical strong{float:center; margin:0px 0 0 0px; padding:0; font-size:18px; font-weight:normal; color:#660000; }
+#grid_medical ul{list-style-type: disc;}
+#grid_medical ul li{text-align: left; margin:10px 0 0 10px; padding:0px; font-family:Verdana, Arial, helvetica, sans-serif;font-size:13px; font-weight: normal; color:#555555; }
+#grid_medical .cell {
+        background-color: #ebebeb;
+        border-radius: 10px;
+        padding: 20px;
+    }
+  
+#grid_medical .a {
+        grid-column: 1;
+        grid-row: 1 /span 2;
+    }
+#grid_medical .b {
+        grid-column: 2 ;
+        grid-row: 1;
+    }
+#grid_medical .c {
+        grid-column: 2 ;
+        grid-row: 2;
+    }
+
+/* Grid - Teaching*/
+
+#grid_teaching {
+        display: grid;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        grid-template-columns: 50% 50%;
+        background-color: #fff;
+        color: #444;
+        align-items: stretch;
+        padding-bottom: 20px;
+    }
+
+#grid_teaching strong{float:center; margin:0px 0 0 0px; padding:0; font-size:18px; font-weight:normal; color:#660000; }
+#grid_teaching ul{list-style-type: disc;}
+#grid_teaching ul li{text-align: left; margin:10px 0 0 10px; padding:0px; font-family:Verdana, Arial, helvetica, sans-serif;font-size:13px; font-weight: normal; color:#555555; }
+#grid_teaching .cell {
+        background-color: #ebebeb;
+        border-radius: 10px;
+        padding: 20px;
+    }
+  
+#grid_teaching .a {
+        grid-column: 1;
+        grid-row: 1 ;
+    }
+#grid_teaching .b {
+        grid-column: 2 ;
+        grid-row: 1;
+    }
+#grid_teaching .c {
+        grid-column: 1 ;
+        grid-row: 2;
+    }
+#grid_teaching .d {
+        grid-column: 2 ;
+        grid-row: 2;
+    }
+
+#grid_teaching .b_span {
+        grid-column: 2 ;
+        grid-row: 1 / span 2;
+    }
+    
 
