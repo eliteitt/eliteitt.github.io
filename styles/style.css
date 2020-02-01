@@ -128,13 +128,28 @@ padding-top:0px;
 border: none;
 }
 
-#header .contacts
-
+#header .text
 {
+float:right;
 text-align:right;
 padding-top:30px;
 border: none;
+}
 
+#header_language
+{
+  padding-top:3px;
+float: left;
+text-align: left;
+display:inline;
+margin-right: 120px;
+}
+
+#header_contacts
+{
+display: inline;
+float:right;
+text-align:right;
 }
 
 #header h1, #header p, #header ul{color: #FFFFFF;font-size: 14px; margin:0; padding:0; list-style:none; line-height:1.6em;}
@@ -320,8 +335,10 @@ padding-left: 0px;
 #footer .col{margin:0 auto; width: 80%;  padding:5px 0 0 0; background-color:#373E46; }
 #footer_content .logo{display:inline; float:left; width:40%; margin:0 0px 0 0; }
 #footer_content .block{display:inline; float:left; width:20%; margin:0 0px 0 0;}
+#footer .row{margin:0 auto; width: 100%;  padding:5px 0 0 0; background-color:#373E46; }
 #footer_content strong{ padding:0; font-size:18px; font-weight:normal; color:#FFFFFF; text-align: center;}
 #footer_content p{display:block; padding-top: 5px;  clear:both; line-height:normal;text-align: center; font-size: 14px; color:#ffffff}
+#footer_content h5{display:block; padding-top: 5px;  clear:both; line-height:normal;text-align: center; font-size: 11px; color:#ffffff}
 #footer_content img{display: inline;float:left; padding-top:0px;border: none;}
 #footer_content a
 {
