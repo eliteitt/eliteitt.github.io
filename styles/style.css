@@ -146,6 +146,7 @@ display: inline;
 float:right;
 text-align:right;
 }
+#header_contacts p{color:#ffffff;}
 #header_contacts h4{padding-top:20px;}
 #header_contacts a.std:link
 {
@@ -172,7 +173,7 @@ font-style:normal;
 text-decoration:none;
  }
 
- 
+
 #header_contacts a.language:link
 {
 color:#FFCC00;
