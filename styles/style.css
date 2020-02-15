@@ -39,6 +39,7 @@ a:link
 color:#ac0e22;
 font-weight:normal;
 text-decoration:underline;
+word-break: break-all;
 }
 
 
