@@ -139,6 +139,14 @@ border: none;
 
 #header h1, #header p, 
 #header ul{color: #FFFFFF;font-size: 14px; margin:0; padding:0; list-style:none; line-height:1.6em;}
+
+#header_contacts
+{
+display: inline;
+float:right;
+text-align:right;
+}
+#header_contacts h4{padding-top:20px;}
 #header a.std:link
 {
 color:#ffffff;
@@ -164,7 +172,8 @@ font-style:normal;
 text-decoration:none;
  }
 
- #header a.language:link
+ 
+#header_contacts a.language:link
 {
 color:#FFCC00;
 font-weight:normal;
@@ -173,7 +182,7 @@ text-decoration:underline;
 }
 
 
-#header a.language:visited
+#header_contacts a.language:visited
 {
 color:#FFCC00;
 font-style:normal;
@@ -182,21 +191,12 @@ text-decoration:underline;
 }
 
 
-#header a.language:hover
+#header_contacts a.language:hover
 {
 color:#FFCC00; 
 font-style:normal;
 text-decoration:none;
  }
-
- #header_contacts
-{
-display: inline;
-float:right;
-text-align:right;
-}
-#header_contacts h4{padding-top:20px;}
-
 
 /* Navigator */
 #topnav {display:inline-block; width:870px; margin:0 auto; padding:0; list-style:none;}
