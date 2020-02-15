@@ -147,7 +147,7 @@ float:right;
 text-align:right;
 }
 #header_contacts h4{padding-top:20px;}
-#header a.std:link
+#header_contacts a.std:link
 {
 color:#ffffff;
 font-weight:normal;
@@ -156,7 +156,7 @@ text-decoration:underline;
 }
 
 
-#header a.std:visited
+#header_contacts a.std:visited
 {
 color:#ffffff;
 font-style:normal;
@@ -165,7 +165,7 @@ text-decoration:underline;
 }
 
 
-#header a.std:hover
+#header_contacts a.std:hover
 {
 color:#ffffff; 
 font-style:normal;
